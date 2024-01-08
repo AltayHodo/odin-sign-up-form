@@ -1,23 +1,63 @@
-*{
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: inherit;
 }
 
-.main{
+.main {
   display: flex;
 }
 
-.image-section{
+.image-section {
   width: 35%;
   background-image: url(./assets/background-photo.avif);
   background-position: center;
   background-size: cover;
   height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
-.form-section{
+.overlay {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  top: 20vh;
+  padding: 10px;
+  color: white;
+  background-color: rgba(0,0,0,.4);
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.odin-logo, .image-container {
+  height: 100%;
+}
+
+.credit{
+  position: absolute;
+  bottom: 2vh;
+  color: white;
+  font-size: 12px;
+}
+
+.underline{
+  color: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.form-section {
   width: 65%;
+  padding-top: 100px;
+  padding-left: 20px;
 }
 
-
+.main-text-top{
+  margin-bottom: 20px;
+}
