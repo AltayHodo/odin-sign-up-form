@@ -27,7 +27,7 @@
   top: 20vh;
   padding: 10px;
   color: white;
-  background-color: rgba(0,0,0,.4);
+  background-color: rgba(0, 0, 0, .4);
   font-size: 50px;
   display: flex;
   align-items: center;
@@ -35,18 +35,19 @@
   gap: 5px;
 }
 
-.odin-logo, .image-container {
+.odin-logo,
+.image-container {
   height: 100%;
 }
 
-.credit{
+.credit {
   position: absolute;
   bottom: 2vh;
   color: white;
   font-size: 12px;
 }
 
-.underline{
+.underline {
   color: inherit;
   text-decoration: underline;
   cursor: pointer;
@@ -55,10 +56,15 @@
 .form-section {
   width: 65%;
   padding-top: 100px;
-  padding-left: 20px;
+  background-color: rgb(245,245,245);
 }
 
-.main-text-bottom{
+.main-text{
+  margin-right: 100px;
+  padding-left: 25px;
+}
+
+.main-text-bottom {
   margin-top: 20px;
   margin-bottom: 50px;
 }
@@ -68,21 +74,58 @@
   grid-template-columns: 1fr 1fr;
 } */
 
-.form-flex-container{
+.form-container{
+  padding-left: 25px;
+  padding-top: 10px;
+  background-color: white;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+}
+
+.form-title{
+  font-size: 22px;
+}
+
+.form-flex-container {
   display: flex;
   flex-direction: column;
 }
 
-.flex-row{
+.flex-row {
   display: flex;
-  gap: 50px;  
+  gap: 50px;
+  margin: 15px 0px;
 }
 
-.flex-item{
+.flex-item {
   display: flex;
   flex-direction: column;
+  font-size: 15px;
 }
 
-input{
+input {
   width: 200px;
+  padding: 5px;
+  font-size: 13px;
+}
+
+.submit-button{
+  margin-top: 20px;
+  margin-left: 25px;
+  background-color: #596d48;
+  color: white;
+  padding: 10px 35px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bottom-text{
+  margin-left: 25px;
+  margin-top: 25px;
+  font-size: 15px;
+}
+
+.green{
+  color: #596d48;
+  cursor: pointer;
 }
